@@ -10,7 +10,8 @@ vim.opt.spelllang = "en_us"
 vim.opt.cursorline = true
 vim.opt.cursorcolumn = true
 vim.opt.signcolumn = 'yes'
-vim.opt.wrap = false
+vim.opt.wrap = true
+vim.opt.conceallevel = 2
 
 -- Title
 vim.opt.title = true                       -- set the title of window to the value of the titlestring
